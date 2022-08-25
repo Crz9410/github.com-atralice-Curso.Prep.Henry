@@ -4,35 +4,69 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 */
 
 /* Ejercicio 1: Centrar el texto en un span */
-
+    /* este metodo nos centra una parte del texto llamada ejercicio1 */
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+     display: block;
+     text-align:center;
 
 }
 
 
 /* Ejercicio 2: Posicionar el header */
-
+    /* este metoddo nos oculta una caja en la parte superior del titulo  */
 /* Acá va tu código */
-
+#ejercicioDos {
+    display: none;
+}
 
 
 /* Ejercicio 3: */
-
+    /* mueve una imagen a la posicion indicada con una marca roja */
 /* Acá va tu código */
+#ejercicioTres {
+    position: relative;
+    left: 200px;
+    top: 100px;
 
+}
 
 
 /* Ejercicio 4: */
-
+    /* hacer mover el logo azul a la parte superior izquierda y con fixed 
+    se mueve si yo me desplazo en la pagina */
 /* Acá va tu código */
-
+#ejercicioCuatro {
+    position: fixed;
+    left:0px;
+    top:0px;
+}
 
 
 /* Ejercicio 5: */
-
+    /* alinea y separa centradamente todo lo que estaba en el centro de la parte superior azul */
 /* Acá va tu código */
-
+#ejercicioCinco  {
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
 
 
 /* Ejercicio 6. */
+    /* invierte de poscion ciertos elementos en el textoazul de izquierda a derecha */
+#ejercicioCinco {
+  flex-flow:row-reverse;
+}
+#ejercicioSiete{
+    display: flex;
+    /* en linea revuelve el elemento de 1,2,3,4, a 4,3,2,1 */
+    flex-flow: row-reverse;
+    /* no hace nada no vemos algun cambio
+    align-self: flex-end;*/
+        /* hace una columna al reves */
+    /* flex-flow:column-reverse; */
+    /* columna al lado izquierdo en orden
+    flex-flow:column; */
+    /* justify-content:right; */
+}
